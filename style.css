@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  height: 42rem;
+  width: 25rem;
+  border-radius: 1rem;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1.5rem;
+}
+
+img.card-img-top {
+  border-radius: 1rem;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: x-large;
+  font-weight: 600;
+  padding: 1.5rem 0;
+}
+
+hr {
+  color: hsl(215, 51%, 70%);
+  margin: 1rem;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.tracker-holder {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+}
+
+.eth {
+  width: 0.7rem;
+  font-weight: 600;
+}
+
+.eth-tracker {
+  color: hsl(178, 100%, 50%);
+}
+
+.eth-num {
+  padding-left: 0.7rem;
+}
+
+.timer {
+  color: hsl(215, 51%, 70%);
+  font-size: large;
+  font-weight: 300;
+  padding: 1rem 0;
+}
+
+.clock {
+  width: 1.3rem;
+  padding-bottom: 5px;
+}
+
+.creation {
+    display: flex;
+    justify-content: center;
+}
+
+.creation img{
+    width: 3rem;
+    height: 3rem;
+    border: 2px white solid;
+    border-radius: 50%;
+    margin-top: auto;
+}
+
+h2 {
+    color: hsl(215, 51%, 70%);
+    font-size: large;
+    margin: 1rem;
+}
+
+a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
