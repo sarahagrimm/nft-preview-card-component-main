@@ -96,7 +96,8 @@ a {
 }
 
 @media only screen and (max-width: 999px) {
-    .card {
-        top: 0;
+    body {
+        justify-content: initial;
+        padding-top: 2rem;
     }
 }
