@@ -11,8 +11,8 @@ body {
 }
 
 .card {
-  height: 42rem;
-  width: 25rem;
+  height: 35rem;
+  width: 22rem;
   border-radius: 1rem;
   background-color: hsl(216, 50%, 16%);
   padding: 1.5rem;
@@ -24,9 +24,9 @@ img.card-img-top {
 
 h1 {
   color: hsl(0, 0%, 100%);
-  font-size: x-large;
+  font-size: large;
   font-weight: 600;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 hr {
@@ -36,18 +36,19 @@ hr {
 
 p {
   color: hsl(215, 51%, 70%);
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
 .tracker-holder {
   display: flex;
   justify-content: space-between;
-  font-size: large;
+  font-size: medium;
 }
 
 .eth {
-  width: 0.7rem;
+  width: 13px;
+  height: 20px;
   font-weight: 600;
 }
 
@@ -56,18 +57,18 @@ p {
 }
 
 .eth-num {
-  padding-left: 0.7rem;
+  padding-left: 4px;
 }
 
 .timer {
   color: hsl(215, 51%, 70%);
-  font-size: large;
+  font-size: medium;
   font-weight: 300;
   padding: 1rem 0;
 }
 
 .clock {
-  width: 1.3rem;
+  width: 1rem;
   padding-bottom: 5px;
 }
 
@@ -77,17 +78,16 @@ p {
 }
 
 .creation img{
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     border: 2px white solid;
     border-radius: 50%;
-    margin-top: auto;
 }
 
 h2 {
     color: hsl(215, 51%, 70%);
-    font-size: large;
-    margin: 1rem;
+    font-size: medium;
+    margin: 10px 20px;
 }
 
 a {
