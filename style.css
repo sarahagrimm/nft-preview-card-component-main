@@ -94,3 +94,9 @@ a {
     color: hsl(0, 0%, 100%);
     text-decoration: none;
 }
+
+@media only screen and (max-width: 999px) {
+    .card {
+        top: 0;
+    }
+}
